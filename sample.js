@@ -1,5 +1,5 @@
-const SampleFunction = (e)=>{
+const sampleFunction = (e)=>{
     console.info(e)
 }
 
-export default SampleFunction
+export default sampleFunction
