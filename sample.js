@@ -1,16 +1,12 @@
 
-/**
- * Mencetak Text Ke Console
- * @param {string} e 
- */
-export const printToConsole = (e = "ini contoh")=>{
-    console.info(e)
+const printToConsole = (email, phone, address)=>{
+    console.info(`
+-----------------------------------
+Email       : ${email}
+Phone       : ${phone}
+Address     : ${address}
+-----------------------------------
+    `)
 }
 
-/**
- * Menampilkan ALert 
- * @param {string} text 
- */
-export const showAlert = (text = "ini alert")=>{
-    window.alert(text)
-}
+export default printToConsole
